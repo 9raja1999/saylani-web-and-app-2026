@@ -1,0 +1,17 @@
+/* p {
+    color: red;
+} */
+
+
+p.odd-num {
+    color: red;
+    background-color: yellow;
+    font-size: 36px;
+}
+
+
+.even-num {
+    color: blue;
+    background-color: orange;
+    font-size: 72px;
+}
