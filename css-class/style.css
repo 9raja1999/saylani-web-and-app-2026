@@ -1,7 +1,73 @@
 body {
     margin: 0px;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+
 }
 
+.serif-font {
+    font-family: serif;
+}
+
+.san-serif-font {
+    font-family: sans-serif;
+}
+
+.heading {
+    font-weight: normal;
+    font-style:oblique;
+}
+
+
+button {
+    cursor: progress;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.para {
+    font-size: 32px;
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: lowercase;
+    text-decoration: underline;
+    cursor: pointer;
+    line-height: normal;
+    letter-spacing: 14px;
+    word-spacing: 32px;
+    /* text-align: center; */
+    text-align: right;
+    }
+
+
+ p.align-para img {
+    vertical-align: text-bottom;
+ }   
+
+/* .top-align {
+    vertical-align: top;
+} */
+    
+.lorem-text {
+   
+}
+
+p:hover {
+    color: red;
+    font-size: 36px;
+}
+
+    
+.lorem-text-one {
+    text-decoration: none;
+}
 
 .prod-card {
     border: 1px solid rgb(181, 178, 178);
