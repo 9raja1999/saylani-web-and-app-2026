@@ -1,0 +1,27 @@
+@font-face {
+    font-family: roboto-regular;
+    src : url(../fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-italic;
+    src: url(../fonts/roboto/Roboto-Italic.ttf);
+}   
+
+@font-face {
+    font-family: roboto-top;
+    src: url(..//fonts/robotop/ROBOTOP.ttf);
+}
+
+.font-roboto-regular {
+    font-family: roboto-regular;
+}
+
+
+.font-roboto-italic {
+    font-family:  roboto-italic;
+}
+
+.font-roboto-top {
+    font-family:  roboto-top;
+}
