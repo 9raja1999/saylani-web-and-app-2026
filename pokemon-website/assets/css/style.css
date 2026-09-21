@@ -1,0 +1,55 @@
+div.card {
+  width: 25%;
+  border-radius: 5px;
+}
+
+div.card .image-holder {
+  width: 100%;
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+div.card .image-holder img {
+  width: 100%;
+  height: 100%;
+}
+div.card .content-holder {
+  padding: 4px 0px 24px;
+  background-color: #ee6b2f;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+div.card .content-holder .title {
+  margin: 16px 12px 0px;
+  color: white;
+  font-size: 18px;
+}
+div.card .content-holder .desc {
+  margin: 12px;
+  color: black;
+  font-size: 16px;
+}
+
+div.grid {
+  display: flex;
+  width: 100%;
+  border: 1px solid blue;
+}
+div.grid .first-col {
+  width: 75%;
+}
+div.grid .second-col {
+  width: 25%;
+}
+
+div.grid div {
+  padding: 5px;
+  border: 1px solid red;
+}
+
+.content {
+  border: 1px solid red;
+  height: 300px;
+  overflow: scroll;
+}
